@@ -23,6 +23,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return "Funciona la Api";
 // });
 
-route::get('testController',[LoginController::class,'test']);
+route::post('Registrar',[LoginController::class,'registrar']);
 
-route::get('testController',[LoginController::class,'Hola']);
+route::get('Inicio',[LoginController::class,'inicio']);
